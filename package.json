@@ -2,10 +2,10 @@
   "name": "ds-docs-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/scripts/main.js",
   "scripts": {
-    "rollup": "./node_modules/.bin/rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup-dev": "./node_modules/.bin/rollup -c",
+    "rollup-prod": "NODE_ENV=production ./node_modules/.bin/rollup -c"
   },
   "keywords": [],
   "author": "Myles O'Connor",
@@ -16,6 +16,13 @@
     "eslint-plugin-react": "^6.7.1",
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
-    "rollup-plugin-eslint": "^3.0.0"
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1"
+  },
+  "dependencies": {
+    "debug": "^2.3.2"
   }
 }
