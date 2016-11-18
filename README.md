@@ -1,5 +1,5 @@
 # Rollup.js Test
-Testing out Rollup.js
+Testing out Rollup.js, thanks to the excellent work of [@jlengstorf](https://github.com/jlengstorf).
 
 ### Installation
 ```
