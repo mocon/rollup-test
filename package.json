@@ -12,7 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.2.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-react": "^6.7.1",
     "rollup": "^0.36.3",
-    "rollup-plugin-babel": "^2.6.1"
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-eslint": "^3.0.0"
   }
 }
