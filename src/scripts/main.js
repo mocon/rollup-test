@@ -1,5 +1,10 @@
+// Load a stylesheet
+import '../styles/main.scss';
+
+// Dependencies
 import debug from 'debug';
 
+// Logging via debug
 const log = debug('app:log');
 
 // Disable logging in production

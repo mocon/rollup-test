@@ -1,0 +1,10 @@
+/* A variable */
+$primary-color: lightblue;
+
+body {
+    color: $primary-color;
+
+    a {
+        text-decoration: none;
+    }
+}
