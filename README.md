@@ -6,12 +6,18 @@ Testing out Rollup.js
 npm install
 ```
 
-### Run Rollup in development mode
+### Development
+
+The following command runs Rollup with the `--watch` flag, as well as a livereload server. This allows for live reloading of JavaScript and CSS.
+
 ```
-npm run rollup-dev
+npm run watch
 ```
 
-### Run Rollup in production mode
+### Build
+
+The following command runs Rollup in production mode, without logging and with Uglified JS.
+
 ```
-npm run rollup-prod
+npm run build
 ```

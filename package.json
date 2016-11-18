@@ -4,8 +4,10 @@
   "description": "",
   "main": "src/scripts/main.js",
   "scripts": {
-    "rollup-dev": "./node_modules/.bin/rollup -c",
-    "rollup-prod": "NODE_ENV=production ./node_modules/.bin/rollup -c"
+    "watch": "npm-run-all --parallel dev livereload",
+    "dev": "rollup -c --watch",
+    "livereload": "livereload 'build/'",
+    "build": "NODE_ENV=production ./node_modules/.bin/rollup -c"
   },
   "keywords": [],
   "author": "Myles O'Connor",
@@ -15,6 +17,8 @@
     "cssnano": "^3.8.0",
     "eslint": "^3.10.2",
     "eslint-plugin-react": "^6.7.1",
+    "livereload": "^0.6.0",
+    "npm-run-all": "^3.1.1",
     "postcss-cssnext": "^2.8.0",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
@@ -25,7 +29,8 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-postcss": "^0.2.0",
     "rollup-plugin-replace": "^1.1.1",
-    "rollup-plugin-uglify": "^1.0.1"
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^2.5.0"
   },
   "dependencies": {
     "debug": "^2.3.2"
