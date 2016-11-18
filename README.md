@@ -6,7 +6,12 @@ Testing out Rollup.js
 npm install
 ```
 
-### Run Rollup
+### Run Rollup in development mode
 ```
-npm run rollup
+npm run rollup-dev
+```
+
+### Run Rollup in production mode
+```
+npm run rollup-prod
 ```
