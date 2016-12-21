@@ -12,7 +12,7 @@ npm install
 - The main JavaScript file is located at `src/scripts/main.js`
 - The main Scss file is located at `src/styles/main.scss`
 
-The following command runs Rollup with the `--watch` flag, as well as a livereload server. This allows for live reloading of JavaScript and CSS.
+The following command runs Rollup with the `--watch` flag, as well as a livereload server. This allows for live reloading of both JavaScript and CSS.
 
 ```
 npm run watch
